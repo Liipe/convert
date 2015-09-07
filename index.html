@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Conversor de Temperaturas</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+    </head>
+    
+    <body>
+        
+        <section class="container">
+    	<form class="form">
+    		<fieldset>
+    			<legend>Conversor de Temperaturas</legend>
+    			<label>
+    				Celsius
+    				<input id="celsius" type="text" placeholder="30" required="required" />
+    			</label>
+    			<button>Converter</button>
+    		</fieldset>
+    	</form>
+    	
+    	 <div class="content-result">
+    		<span class="label">Graus Fhareniet</span>
+    		<span class="result">0.00</span>
+        </div>
+        </section>
+        
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="servicesJS/convertService.js"></script>
+        <script src="servicesJS/convertController.js"></script>
+        
+    </body>
+</html>
