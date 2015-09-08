@@ -33,7 +33,7 @@ var convertController = {
 	},
 	
 	showLoading: function(isLoading) {
-		document.querySelector('.label').innerHTML = isLoading ? 'loading...' : 'Fahrenheit'
+		document.querySelector('.label').innerHTML = isLoading ? 'loading...' : 'Fahreneit'
 	}
 	
 }
