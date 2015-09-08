@@ -1,6 +1,6 @@
 var convertService = {
 
-	getIndex: function(celsius,callback) {
+	convertTemp: function(celsius,callback) {
 		$.ajax({
 		  url: 'servicesPHP/convert.php',
 		  data: {'celsius': celsius},

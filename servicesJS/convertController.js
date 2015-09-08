@@ -23,7 +23,7 @@ var convertController = {
 		};
 		
 		convertController.showLoading(true);
-		convertService.getIndex(celsius, callback);
+		convertService.convertTemp(celsius, callback);
 	},
 	
 	showResult: function(result) {
